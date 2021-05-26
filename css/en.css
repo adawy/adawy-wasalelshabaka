@@ -1,0 +1,66 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+.form-group:first-of-type input:first-of-type {
+    margin-left: unset;
+    margin-right: 20px;
+}
+header .header-nav form input{
+    left: unset;
+    right: -10px;
+    border-left: 0px solid #c30f2f;
+    border-right: 4px solid #c30f2f;
+    border-bottom: 4px solid #c30f2f;
+    transform-origin: left;
+}
+footer ul.footer li.footer-widget h4::after{
+    right:unset;
+    left: 0;
+}
+.about h3{
+    border-right: 0px solid #C30F2F;
+    border-left: 3px solid #C30F2F;
+    padding-right:unset;
+    padding-left:  15px;
+}
+.about ul li::after{
+    left: 0;
+    right: unset;
+}
+.about ul li{
+    padding-left: 20px;
+    padding-right:unset;
+}
+.about .img-about::before{
+    left: unset;
+    right: -25px;;
+}
+.about .img-about::after{
+    right: unset;
+    left: 0;
+}
+.about .about-item {
+    padding: 20px 10px 20px  50px;
+}
+.about .about-item .icon{
+    left:-18px;
+    right: unset;
+}
+@media (max-width: 767px){
+    .about .img-about::after {
+        left:66px;
+        right:unset;
+    }
+    .mobile{
+        left: 10px;
+        right: unset;
+    }
+    header .header-nav form input{
+        right: unset;
+    }
+    .about .img-about::before {
+        left:unset;
+        right: 5px;
+    }
+}
